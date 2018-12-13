@@ -17,7 +17,7 @@ a, body, div, footer, h1, h2, h3, h4, h5, h6, header, hgroup, html, img, li, p, 
 }
 .container {
     margin: 0 auto;
-    max-width: 1240px;
+    max-width: 100%;
     padding: 40px;
 }
 
@@ -107,7 +107,7 @@ img {
 }
 
 h1 {
-    font-weight: 900 bolder;
+    font-weight: 700 bolder;
     font-size: 2em;
     text-align: center;
     margin-top: 0;
@@ -225,27 +225,22 @@ footer p {
 /* @media resposiveness */
 /* tablet view */
 
-@media screen 
-  and (min-device-width: 992px) 
-  and (max-device-width: 1240px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (max-width: 992px)  {
 
-    body {
+    /* body {
         padding: 56px;
     }
     .grid-container {
         grid-template-columns: auto auto auto;
         margin: 0 auto;
         grid-gap: 24px;
-    }
+    } */
+    
 }
 
 /* larger mobile screen view */
 
- @media 
-  (min-device-width: 601px) 
-  and (max-device-width: 992px)
-  and (-webkit-min-device-pixel-ratio: 2) { 
+ @media screen and (max-width: 768px) { 
 
     body {
         padding: 56px;
@@ -274,7 +269,7 @@ footer p {
     img {
         display: block;
         height: auto;
-        max-width: 100%;;
+        max-width: 100%;
     
     }
     .grid-container {
@@ -300,32 +295,23 @@ footer p {
         grid-gap: 15px;
     
     }
-    
-    .image1 {
-        display: block;
-        height: 100%;
-        max-width: 100%;
-    }
-    .image img {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: 100%;
-        transition: 800ms ease;
-        backface-visibility: hidden;
-      }
       
-    
 } 
 
-@media 
-  (min-device-width: 320px) 
-  and (max-device-width: 600px)
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media screen and (max-width: 480px) { 
 
     body {
         padding: 56px;
     }
+
+     .banner h1 {
+        color: #ccc;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 1.3;
+        padding: 0 32px;
+}
+    
 
 .container{
     margin: 0;
@@ -376,21 +362,5 @@ footer p {
         grid-gap: 10px;
     
     }
-    
-    .image1 {
-        display: block;
-        height: 100%;
-        max-width: 100%;
-    }
-    .image img {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: 100%;
-        transition: 800ms ease;
-        backface-visibility: hidden;
-      }
-      
-    
-} 
 
+}

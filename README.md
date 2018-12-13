@@ -1,6 +1,6 @@
 # Jon-Chretien_project
 
-"Imitation is the highest orm of flattery."
+"Imitation is the highest form of flattery."
  
 # important
 
