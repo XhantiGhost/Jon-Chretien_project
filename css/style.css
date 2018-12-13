@@ -243,6 +243,10 @@ footer p {
   and (max-device-width: 992px)
   and (-webkit-min-device-pixel-ratio: 2) { 
 
+    body {
+        padding: 56px;
+    }
+
 .container{
     margin: 0;
     padding: 0;
@@ -314,6 +318,10 @@ footer p {
   (min-device-width: 320px) 
   and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) { 
+
+    body {
+        padding: 56px;
+    }
 
 .container{
     margin: 0;
